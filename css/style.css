@@ -1,0 +1,12 @@
+﻿body {
+	background-color: #138f3c;
+	font-family: "华文新魏" ;
+	font-size: 24pt ;
+}
+p {
+	text-align: center;
+	color: orange;
+}
+p.rowtwo {
+	color: cyan;
+}

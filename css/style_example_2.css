@@ -1,0 +1,41 @@
+﻿@charset "utf-8";
+body {
+	background-color: #cfb48e;
+	color: #7f571e;
+	margin: 0px;
+}
+h1{
+	text-align: center;
+	background-color: white;
+	margin: 0px;
+	padding: 0px 0px 4px 0px;
+	min-width: 294px;
+}
+#nav{
+	background-color: white ; /* 将导航块背景设为白色 */
+	width: 16%;
+	min-width: 150px;
+	margin-top: 0px ;
+}
+#nav h3{
+	margin-left:5px;
+	margin-top: 5px ;
+	margin-bottom: 0px;
+}
+
+#content{
+	background-color: #EEE;
+	position: absolute ;
+	left: 150px ;
+	top: 51.5px;
+	min-width: 544px ;
+}
+#copyright{
+	background-color: #DDD;
+	position: absolute;
+	top: 367.5px ;
+	width: 100% ;
+}
+
+
+
