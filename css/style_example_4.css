@@ -13,6 +13,12 @@ p.lastline {
 p.copyrighttext{
 	margin:0px auto;
 }
+a {
+	text-decoration: none ;
+}
+a:hover {
+	color: black ;
+}
 #titlename {
 	text-align: center ;
 	margin-left: 15% ;
@@ -38,6 +44,9 @@ p.copyrighttext{
 	margin-top: 5px ;
 	margin-bottom: 0px;
 }
+#nav ul{
+	list-style: none ;
+}
 
 #content{
 	background-color: #EEE;
@@ -49,6 +58,7 @@ p.copyrighttext{
 	min-width: 244px;
 	height: 311px ;
 }
+
 #copyright{
 	background-color: #DDD;
 	margin-left:  15%;
