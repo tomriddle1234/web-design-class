@@ -1,0 +1,78 @@
+﻿@charset "utf-8" ;
+body {
+	text-align:center ;
+}
+#staticLayout{
+	
+}
+#relativeLayout{
+	margin-top: 40px ;
+}
+#staticLayout .first {
+	position: static ;
+	width: 300px ;
+	height: 50px ;
+	background-color: #CC1111;
+	margin: auto;
+	border: 10px solid black;
+	border-radius: 10px;
+}
+#staticLayout .second {
+	position: static ;
+	width: 300px ;
+	height: 50px ;
+	background-color: #11CC11;
+	margin: auto;
+	border: 10px solid black;
+	border-radius: 10px;
+}
+#staticLayout .third {
+	position: static ;
+	width: 300px ;
+	height: 50px ;
+	background-color: #1111CC;
+	margin: auto;
+	border: 10px solid black;
+	border-radius: 10px;
+}
+
+#relativeLayout .first{
+	position: relative ;
+	width: 300px ;
+	height: 50px ;
+	background-color: #11CC11;
+	
+	border: 10px solid black;
+	border-radius: 10px;
+}
+#relativeLayout .second{
+	position: relative ;
+	width: 300px ;
+	height: 50px ;
+	background-color: #CC1111;
+	
+	border: 10px solid black;
+	border-radius: 10px;
+	left:320px;
+}
+#relativeLayout .third{
+	position: relative ;
+	width: 300px ;
+	height: 50px ;
+	background-color: #1111CC;
+	
+	border: 10px solid black;
+	border-radius: 10px;
+	left: 640px ;
+}
+
+
+#fixedLayout {
+	width: 200px;
+	height: 200px;
+	position: fixed;
+	
+	right:0px;
+	bottom:0px;
+	background-color: cyan;
+}
