@@ -4,6 +4,15 @@ body {
 	color: #7f571e;
 	margin: 0px;
 }
+p.firstline {
+	margin-top:0px ;
+}
+p.lastline {
+	margin-bottom:0px ;
+}
+p.copyrighttext{
+	margin:0px auto;
+}
 #titlename {
 	text-align: center ;
 	margin-left: 15% ;
@@ -14,12 +23,11 @@ body {
 	background-color: white;
 	margin: 0px;
 	padding: 0px 0px 4px 0px;
-	min-width: 294px;
+	min-width: 400px;
 }
 #nav{
 	background-color: #CCC ; /* 将导航块背景设为白色 */
-	width: 16% ;
-	min-width: 150px;
+	width: 150px ;
 	margin-top: 0px ;
 	margin-left: 15% ;
 	float: left;
@@ -33,19 +41,21 @@ body {
 
 #content{
 	background-color: #EEE;
+	margin-top: 0px ;
 	margin-right: 15% ;
-	padding-left: 0.5% ;
-	padding-right: 0.5% ;
-	width: 53% ;
-	min-width: 544px ;
-	float: right ;
+	margin-left: calc(15% + 150px) ;
+	padding-left: 3px ;
+	padding-right: 3px ;
+	min-width: 244px;
+	height: 311px ;
 }
 #copyright{
 	background-color: #DDD;
-	margin-left: 15% ;
-	margin-right: 15% ;
+	margin-left:  15%;
+	margin-right:  15%;
 	padding-left: 0.5% ;
 	clear: both;
+	min-width: 400px ;
 }
 #test{
 	width: 100px;
