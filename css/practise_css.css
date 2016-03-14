@@ -2,6 +2,24 @@
 body {
 	text-align:center ;
 }
+#dropdown{
+	display:none ;
+}
+#relativeLayout .first:hover #dropdown {
+	display:block ;
+}
+
+a {
+	display: block ;
+	width: 130px ;
+	height: 40px ;
+	background-color: #EEE;
+	margin-bottom: 5px ;
+	z-index: 100;
+	text-decoration: none ;
+	padding-top: 15px ;
+}
+
 #staticLayout{
 	
 }
@@ -41,7 +59,6 @@ body {
 	width: 300px ;
 	height: 50px ;
 	background-color: #11CC11;
-	
 	border: 10px solid black;
 	border-radius: 10px;
 }
@@ -50,29 +67,68 @@ body {
 	width: 300px ;
 	height: 50px ;
 	background-color: #CC1111;
-	
 	border: 10px solid black;
 	border-radius: 10px;
-	left:320px;
+	margin-left: auto;
+	margin-right: auto;
 }
 #relativeLayout .third{
 	position: relative ;
 	width: 300px ;
 	height: 50px ;
 	background-color: #1111CC;
-	
 	border: 10px solid black;
 	border-radius: 10px;
-	left: 640px ;
+	left: calc(100% - 320px) ;
+}
+#absoluteLayout .first{
+    position:absolute ;
+	background-color: #CC1111;
+	border: 10px solid black;
+	border-radius: 10px;
+	height: 190px ;
+	width: 50px ;
+	top: 10px ;
+	left: 50px ;
 }
 
+#absoluteLayout .second{
+	position:absolute ;
+	background-color: #11CC11;
+	border: 10px solid black;
+	border-radius: 10px;
+	height: 190px ;
+	width: 50px ;
+	top: 10px ;
+	right: 50px ;
+}
+#absoluteLayout .third{
+	position:absolute ;
+	background-color: #000;
+	border: 10px solid black;
+	border-radius: 10px;
+	height: 50px ;
+	width: 50px ;
+	top: 285px ;
+	right: 50px ;
+}
+#absoluteLayout .fourth{
+	position:absolute ;
+	background-color: #000;
+	border: 0px solid black;
+	border-radius: 40px;
+	height: 80px ;
+	width: 80px ;
+	top: 360px ;
+	left: 50px ;
+	z-index: -1;
+}
 
 #fixedLayout {
 	width: 200px;
 	height: 200px;
 	position: fixed;
-	
 	right:0px;
 	bottom:0px;
 	background-color: cyan;
-}
+} 

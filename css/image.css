@@ -1,0 +1,28 @@
+﻿@charset "utf-8" ;
+body{
+	background-image: url('../img/smallflowers.png');
+	margin:0 ;
+}
+
+.bigvid {
+	position:absolute ;
+	margin:0px ;
+	min-width:100% ;
+	min-height:100% ;
+	top:0 ;
+	
+}
+
+@media (min-aspect-ratio: 16/9) {
+  .bigvid {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-aspect-ratio: 16/9) {
+  .bigvid {
+    width: auto;
+    height: 100%;
+  }
+}

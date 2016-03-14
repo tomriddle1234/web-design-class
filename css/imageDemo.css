@@ -1,0 +1,20 @@
+﻿@charset "utf-8" ;
+
+/* img.thumbUp{
+	width:300px ;
+} */
+body {
+	background-image: url("../img/smallflowers.jpg");
+	background-repeat: repeat;
+}
+
+img {
+	display:inline-block ;
+	width:300px ; 
+	margin:0px ;
+	padding:0px ;
+	border:0px ;
+}
+div {
+	margin:0px auto ;
+}
