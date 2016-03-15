@@ -1,0 +1,26 @@
+﻿@charset "utf-8" ;
+
+body{
+	margin: 0 ;
+	background-color: #EEE ;
+}
+.bigvid{
+	position: absolute ;
+	top: 0;
+}
+
+@media only screen and (min-width: 512px)
+{
+	.bigvid{
+		width: 100% ;
+		height： auto ;
+	}
+} 
+
+@media only screen and (max-width: 511px)
+{
+	.bigvid{
+		position:absolute ;
+		left: calc(50% - 256px) ; /* 位移浏览器窗口大小减去视频宽度之差的一半*/
+	}
+} 
