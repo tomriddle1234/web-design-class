@@ -10,11 +10,13 @@ body {
 
 img {
 	display:inline-block ;
-	width:300px ; 
-	margin:0px ;
+	width:32% ; 
+	margin:0.2% ;
 	padding:0px ;
 	border:0px ;
 }
 div {
+	width:72% ;
 	margin:0px auto ;
+	font-size: 0;
 }
