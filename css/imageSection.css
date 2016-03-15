@@ -1,0 +1,28 @@
+﻿@charset "utf-8" ;
+
+body {
+	background-image: url("../img/smallflowers.jpg");
+	background-repeat: repeat;
+}
+
+
+/* #photos {
+  line-height: 0;
+  -webkit-column-count: 5;
+  -webkit-column-gap:   0px;
+  -moz-column-count:    5;
+  -moz-column-gap:      0px;
+  column-count:         5;
+  column-gap:           0px;
+  font-size:0 ;
+} */
+
+/* #photos img {
+  width: 100px !important;
+  height: auto !important;
+} */
+
+img {
+	width: 200px ;
+	float:left ;
+}

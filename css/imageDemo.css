@@ -4,19 +4,19 @@
 	width:300px ;
 } */
 body {
-	background-image: url("../img/smallflowers.jpg");
+	background-image: url("../img/smallflowers_opacity.jpg");
 	background-repeat: repeat;
 }
 
 img {
-	display:inline-block ;
-	width:32% ; 
-	margin:0.2% ;
+	width:33.333333% ; 
+	margin:0 ;
 	padding:0px ;
 	border:0px ;
-}
+} 
 div {
 	width:72% ;
 	margin:0px auto ;
-	font-size: 0;
+	font-size: 0px;
 }
+

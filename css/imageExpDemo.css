@@ -1,0 +1,52 @@
+﻿@charset "utf-8" ;
+
+/* img.thumbUp{
+	width:300px ;
+} */
+body {
+	background-image: url("../img/smallflowers_opacity.jpg");
+	background-repeat: repeat;
+	font-size: 0px ;
+}
+
+/* span {
+	display:inline-block ;
+	background-color: grey ;
+	margin: 50px ;
+	padding: 20px;
+} */
+
+.thumbUp {
+	display: block ;
+	position:relative ;
+	float: left;
+	height: auto ;
+}
+
+@media only screen and (min-width:1200px)
+{
+	.thumbUp {
+		width:20% ;
+	}
+}
+
+@media only screen and (max-width:1199px) and (min-width:1024px)
+{
+	.thumbUp {
+		width:33.333333% ;
+	}
+}
+
+@media only screen and (min-width:481px) and (max-width: 1023px)
+{
+	.thumbUp {
+		width:50% ;
+	}
+}
+
+@media only screen and (max-width: 480px) 
+{
+	.thumbUp {
+		width:100% ;
+	} 
+}
