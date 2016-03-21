@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<title>JavaScript实例</title>
+		<script src="js/processing.min.js"></script>
+		<style type="text/css" rel="stylesheet">
+			.processingEle{
+				width: 640px ;
+				height: 480px;
+			}
+		</style>
+	</head>
+	
+	<body>
+		<p>这是一个JavaScript演示实例</p>
+		<form>
+			<label id="partA">A: 
+				<input type="text" name="text" id="partAinput">
+			</label>
+			<br \>
+			<label id="partB">B: 
+				<input type="text" name="text" id="partBinput">
+			</label>
+			<br \>
+			<br \>
+			<button id="submitButton1" onclick="plusFunction()">加法提交</button>
+			<button id="submitButton2" onclick="minusFunction()">减法提交</button>
+		</form>
+		
+		<canvas id="processingEle" data-processing-sources="sketch/demo.pde"></canvas>
+		
+		<script>
+			function plusFunction()
+			{
+				var pa = Number(document.getElementById("partAinput").value) ;
+				var pb = Number(document.getElementById("partBinput").value) ;
+				
+				var result = pa + pb ;
+				var resultStr = "结果： " + String(result) ;
+				alert(resultStr) ;
+			}
+			function minusFunction()
+			{
+				var pa = Number(document.getElementById("partAinput").value) ;
+				var pb = Number(document.getElementById("partBinput").value) ;
+				
+				var result = pa - pb ;
+				var resultStr = "结果： " + String(result) ;
+				alert(resultStr) ;
+			}
+		</script>
+		
+	</body>
+</html>
