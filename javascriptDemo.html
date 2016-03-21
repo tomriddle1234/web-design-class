@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<title>JavaScript 实例</title>
+		<link href="css/jquery-ui.min.css" type="text/css" rel="stylesheet" />
+		<link href="css/jsdemo.css" type="text/css" rel="stylesheet" />
+		<script src="js/jquery-1.12.1.min.js"></script>
+		<script src="js/jquery-ui.min.js"></script>
+	</head>
+	
+	<body>
+		<p>JavaScript 是一个真正的编程语言</p>
+		<form>
+			<label>Date:
+				<input type="text" name="date" id="date">
+			</label>
+		</form>
+		<script>
+			$("#date").datepicker() ;
+		</script>
+		
+		
+		<p>JavaScript 计算</p>
+		<form>
+			<label>A:<input type="text" id="partA"></label>
+			<label>B:<input type="text" id="partB"></label>
+			<button id="submitButton" onclick="submitFunction()">提交</button>
+		</form>
+		
+		<script>
+			function submitFunction()
+			{
+				var pa = document.getElementById("partA").value ;
+				var pb = document.getElementById("partB").value;
+				alert(Number(pa)+Number(pb)) ;
+			}
+		</script>
+		
+	</body>
+	
+</html>
